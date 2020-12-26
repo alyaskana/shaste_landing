@@ -47,6 +47,7 @@ header {
 
 .first_screen {
   margin-top: 140px;
+  margin-bottom: 120px;
 }
 
 h1 {
@@ -68,9 +69,6 @@ p {
 
 .mak {
   font-family: 'Mak';
-}
-
-.first_screen .mak {
   font-size: 82px;
 }
 
@@ -91,4 +89,119 @@ p {
 
 .btn:hover {
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+}
+
+.trubochki {
+  max-width: 1240px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.trubochki img {
+  margin-left: 104px;
+}
+
+.trubochki h1 {
+  position: absolute;
+  bottom: -18px;
+  left: 120px;
+  width: 1025px;
+  text-align: left;
+  background: -webkit-linear-gradient(11deg, #74DEFF 11.41%, #76FCBB 51.94%, #9FFF53 88.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.wrapper p {
+  width: 488px;
+  text-align: left;
+  line-height: 130%;
+}
+
+p.who {
+  margin: 65px auto 0 215px;
+}
+
+h1.what {
+  background: -webkit-linear-gradient(115.38deg, #FFBD5B 11.41%, #FF9047 49.93%, #EB4843 88.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin: 70px auto 0 316px;
+}
+
+.relative {
+  position: relative;
+}
+
+.what_line {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(115.38deg, #FFBD5B 11.41%, #FF9047 49.93%, #EB4843 88.45%);
+  position: absolute;
+  bottom: -10px;
+  right: 607px;
+}
+
+p.what {
+  margin: 65px auto 0 430px;
+}
+
+h1.want {
+  margin: 70px auto 0 430px;
+  text-align: left;
+}
+
+.want_line {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(1000deg, #FFABEC 1.65%, #DBADFF 42.88%, #97C3FF 80.02%);
+  position: absolute;
+  bottom: -10px;
+  left: 430px;
+}
+
+p.want {
+  margin: 65px auto 0 325px;
+}
+
+h1.why {
+  text-align: left;
+  margin: 120px auto 0 110px;
+  background: -webkit-linear-gradient(260deg, #00F1D6 11.41%, #51D0E1 48.33%, #009DF4 88.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.why_img {
+  position: absolute;
+  left: 0;
+  top: -360px;
+  max-width: 168px;
+}
+
+.why_img_2 {
+  position: absolute;
+  right: 0;
+  top: -200px;
+  max-width: 380px;
+}
+
+p.why {
+  margin: 65px auto 0 215px;
+}
+
+.btn.bottom {
+  margin-top: 220px;
+  background: linear-gradient(115.38deg, #00F1D6 11.41%, #51D0E1 48.33%, #009DF4 88.45%);
+}
+
+footer {
+  margin-top: 70px;
+  padding: 20px;
 }
