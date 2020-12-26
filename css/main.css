@@ -8,3 +8,36 @@
   font-weight: bold;
   text-rendering: optimizeLegibility;
 }
+
+header {
+  padding-top: 30px;
+}
+
+.flex_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border {
+  margin-top: 10px;
+  font-family: 'Inter';
+  font-size: 13px;
+  text-align: center;
+}
+
+.center {
+  min-width: 170px;
+  flex: 0;
+  margin: 0 20px;
+}
+
+.line {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.line img {
+  width: 100%;
+}
